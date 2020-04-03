@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+<title>JoNyGaMeS</title>
+<body>
+</body>
+<link href="/JoNyGaMeS/styles.css" rel="stylesheet"> 
+</head> 
+<body>
+<video id="video" src="JoNyGaMeS/1.mp4" muted autoplay="" loop=""></video>
+<input id="volume" type="image" src="JoNyGaMeS/volume-up-solid.svg"/>
+<div class="block">
+<div class="nickname animated bounceInDown">JoNyGaMeS</div> 
+<div class="media animated bounceInDown"> 
+<a href="https://vk.com/jonydarks" target="_blank"><i class="fa fa-vk"></i></a> 
+<a href="https://www.youtube.com/channel/UCfGvVoXTPuz47DE_SItJwOg?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play"></i></a> 
+<a href="https://steamcommunity.com/id/JonyDarkS/" target="_blank"><i class="fa fa-steam-square"></i></a> 
+</div> 
+</div> 
+<div class="telegram"> 
+Telegram: @JoNyDarkS
+</div> 
+</body>
+<script>
+var video = document.getElementById("video");
+var volume = document.getElementById("volume");
+
+volume.addEventListener('click', function() {
+    video.muted = (video.muted == false) ? true : false;
+});
+</script> 
+</html>
